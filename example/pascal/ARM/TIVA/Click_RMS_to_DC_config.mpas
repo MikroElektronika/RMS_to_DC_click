@@ -1,0 +1,8 @@
+unit Click_RMS_to_DC_config;
+
+uses Click_RMS_to_DC_types;
+
+const
+    _RMS2DC_I2C_CFG : array[1] of uint32_t = (_I2C_BITRATE_STANDARD_MODE); 
+    
+end.

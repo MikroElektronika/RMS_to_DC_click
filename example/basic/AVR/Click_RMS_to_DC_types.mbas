@@ -1,0 +1,13 @@
+module Click_RMS_to_DC_types
+
+typedef uint8_t                 as byte
+typedef int8_t                  as short
+typedef uint16_t                as word
+typedef int16_t                 as integer
+typedef uint32_t                as longword
+typedef int32_t                 as longint
+
+typedef T_RMS2DC_P       as ^const uint8_t
+typedef T_RMS2DC_V as uint16_t
+
+end.
